@@ -44,10 +44,9 @@ app.post("/", (req, res) => {
         // );
         // res.write("<img src=" + imgURL + ">");
         // return res.send();
-        res.render("result",{query:query,weatherDes:weatherDes , temp:temp, humidity:humidity, imgURL:imgURL})
+        res.render("result",{code:data.cod,query:query,weatherDes:weatherDes , temp:temp, humidity:humidity, imgURL:imgURL})
       } else {
-        res.write(data.message);
-        res.send();
+        res.render("result",{code:data.cod,message:data.message});
       }
     });
   });
