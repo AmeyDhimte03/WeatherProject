@@ -4,12 +4,15 @@ html {
   min-height: 1000px;
   font-family: 'helvetica neue';
   margin: auto;
+  margin: 1rem;
 }
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 12rem;
+  padding-bottom: 5rem;
 }
 
 form{
@@ -17,7 +20,7 @@ form{
   text-align: center;
 }
 
-#heading {
+.heading {
   text-align: center;
   color: #0c3c2b; 
 }
