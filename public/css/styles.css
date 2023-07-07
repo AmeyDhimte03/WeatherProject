@@ -1,0 +1,51 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(-60deg, #ffffff 50%,#88ffd3  50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+  margin: auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+}
+
+form{
+  margin: auto;
+  text-align: center;
+}
+
+#heading {
+  text-align: center;
+  color: #0c3c2b; 
+}
+button {
+  min-height: 50px;
+  width: 50px;
+  /* border-color: #214a3b; */
+  border-radius: 50%;
+  background-color: #74f9c8;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+}
+
+.hovering-button:hover{
+  background-color: #b9fee5;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 1rem; /*previously it was 20px but i changed it*/
+  font-weight: 200;
+  color: #00204a;
+}

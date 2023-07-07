@@ -1,0 +1,17 @@
+<%- include('partials/header'); -%>
+
+    <div class="center">
+        <h1 class="center">Today's weather in
+            <%=query %>
+                could be described as
+                <%=weatherDes %>
+                    <br> with tempearture of
+                    <%=temp %>
+                        degrees celcius & humidity as
+                        <%=humidity %>
+        </h1>
+        <br>
+        <img src="<%= imgURL %>" alt="weatherDes" class="center">
+    </div>
+    <form action="/" method="get"><button type="submit" class="hovering-button">🏠</button></form>
+    <%- include('partials/footer'); -%>
