@@ -1,18 +1,18 @@
 html {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(-60deg, #ffffff 50%,#88ffd3  50%);
-  min-height: 1000px;
+  min-height: 62rem;
   font-family: 'helvetica neue';
   margin: auto;
-  margin: 1rem;
+  margin: 1rem;padding-top :5rem;
 }
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12rem;
-  padding-bottom: 5rem;
+  height: 16rem;
+  margin-top:2rem;
 }
 
 form{
@@ -23,6 +23,7 @@ form{
 .heading {
   text-align: center;
   color: #0c3c2b; 
+  margin:2rem
 }
 button {
   min-height: 50px;

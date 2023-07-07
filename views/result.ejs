@@ -1,8 +1,8 @@
 <%- include('partials/header'); -%>
 
-    <div class="center">
+    <div class="center heading">
 
-        <h1 class="heading" id="heading">
+        <h1>
             <% if (code===200) { %>
                 Today's weather in
                 <%=query %>
@@ -20,5 +20,7 @@
             </h1>
             <% } %>
     </div>
-    <form action="/" method="get"><button type="submit" class="hovering-button">🔙</button></form>
+    <div class="center heading">
+        <form action="/" method="get" ><button type="submit" class="hovering-button">🔙</button></form>
+    </div>
     <%- include('partials/footer'); -%>
